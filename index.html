@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <title>FFW Web Test</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+    
+    <header>
+    <div class="row header-top">
+	  <div class="col-md-5 col-sm-3 col-xs-12"><img id="logo" src="images/design-company-logo.png" alt="design-company-logo" width="333" height="42" /></div>
+	  
+	  <div class="col-md-7 col-sm-9 col-xs-12">
+		   <div class="search-wrap">
+		   		<form class="form-inline">
+		   		<div class="search-wrap-inner">
+		   			
+		   			<div class="form-group">
+					  <select id="selectmenu" class="form-control">
+					    <option value="portfolio" selected>Portfolio</option>
+					    <option value="blog">Blog</option>
+					  </select>
+		   			</div>
+		   			
+		   			<div class="form-group">
+		   			 <div class="input-group">
+					  <input type="text" id="search" placeholder="Search in portfolio">
+					  <span class="input-group-addon" id="basic-addon2"><span id="search-icon" class="search-icon-portfolio"></span></span>
+		   			 </div>
+				    </div>
+				    
+					<div class="form-group">
+				   		<button type="button" class="btn btn-primary">GO</button>
+			   		</div>
+		   		</div>
+		   		</form>
+		   						
+		     
+		   </div>
+	  </div>
+	</div>
+	
+	<div class="row no-gutter">
+		<div class="col-sm-12">
+			<div class="navigation-block">
+				 <nav class="navbar navbar-default">
+				  <div class="container-fluid">
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				    </div>
+				    <div class="collapse navbar-collapse" id="myNavbar">
+				      <ul class="nav navbar-nav">
+				        <li><a href="#">Home</a></li>
+				        <li><a href="#">About</a></li>
+				        <li class="dropdown active">
+					        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio
+					        <span class="caret"></span></a>
+					        <ul class="dropdown-menu">
+					          <li><a href="#">Branding</a></li>
+					          <li><a href="#">Printing</a></li>
+					          <li><a href="#">Illustration</a></li>
+					          <li><a href="#">Packaging</a></li>
+					          <li><a href="#">Video</a></li>
+					          <li><a href="#">Campaigns</a></li>
+					        </ul>
+					      </li>
+				        <li><a href="#">Blog</a></li>
+				        <li><a href="#">Contact</a></li>
+				      </ul>
+				    </div>
+				  </div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	
+		<div class="slider">
+			<div class="row no-gutter">
+				<div class="col-sm-12">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="1"></li>
+					    <li data-target="#myCarousel" data-slide-to="2"></li>
+					    <li data-target="#myCarousel" data-slide-to="3"></li>
+					  </ol>
+					
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      <img src="images/slider1.jpg" alt="Chania">
+					      <div class="carousel-caption">
+						    <h3>‘Batman vs. Superman’ and Marvel Headed for Box Office Collision: Why One Side Needs to Blink</h3>
+						    <p>next superhero movies are gearing up for a head on collision</p>
+						  </div>
+					    </div>
+					
+					    <div class="item">
+					      <img src="images/slider2.jpg" alt="Chania">
+					      <div class="carousel-caption">
+						    <h3>"Good! you are therefore twenty hours behind. Twelve from twenty leaves eight.</h3>
+						    <p>You must regain eight hours. Do you wish to try to do so?" "On foot?"</p>
+						  </div>
+					    </div>
+					
+					    <div class="item">
+					      <img src="images/slider3.jpg" alt="Flower">
+					      <div class="carousel-caption">
+						    <h3>My life has been so short that I really know nothing whatever. I was only made day before yesterday.</h3>
+						    <p>What happened in the world before that time is all unknown to me.</p>
+						  </div>
+					    </div>
+					    
+					    <div class="item">
+					      <img src="images/slider4.jpg" alt="Flower">
+					      <div class="carousel-caption">
+						    <h3>"WHAT whale?" "The WHITE Whale—a Sperm Whale—Moby Dick, have ye seen him? "Never heard of such a whale.</h3>
+						    <p>Cachalot Blanche! White Whale—no." "Very good, then; good bye now, and I'll call again in a minute."</p>
+						  </div>
+					    </div>
+					  </div>
+					
+					  <!-- Left and right controls -->
+					  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					    <img class="slider-nav-btn slide-left" src="images/nav-arrow-l.png" alt="nav-arrow-l" width="86" height="22" />
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					    <img class="slider-nav-btn slide-right" src="images/nav-arrow-r.png" alt="nav-arrow-r" width="86" height="22" />
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div class="content">
+		<div class="row">
+			<div class="col-sm-12"><h2 class="extra-marg-btm">ABOUT US</h2></div>
+			<div class="col-md-4">
+				<p>FOX ordered a second season for "Sleepy Hollow" early in the fall, while NBC did the same for "The Blacklist" just a couple months later. FOX ordered two seasons of "Glee" last spring, a deal it may be regretting as "Glee" ratings find new ways to crater each week.</p>
+
+<p>But when it comes to looking forward, those three renewals all look like child's play.</p>
+			</div>
+			<div class="col-md-4">
+				<p>But when it comes to looking forward, those three renewals all look like child's play compared to what CBS did for "The Big Bang Theory" on Tuesday (March 12).</p>
+
+<p>CBS has announced that "The Big Bang Theory" has been renewed for three additional years, carrying the Thursday comedy through the 2016-2017 season. The deal will carry "The</p>
+			</div>
+			<div class="col-md-4">
+				<p>deal will carry "The Big Bang Theory," currently in its seventh season, through season 10.</p>
+
+<p>"Comedy is a big part of our schedule, and 'The Big Bang Theory' is the biggest comedy force on television," blurbs Nina Tassler, Chairman, CBS Entertainment. "This multi-year deal further strengthens our network’s position for future seasons and marks anothe
+				</p>
+			</div>
+			
+			<div class="col-sm-12">
+				<h2>SERVICES WE PROVIDE</h2>
+				<p class="centered-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.<br>
+Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+
+				<div class="carousel">
+					<div class="service-carousel row">
+					  <div>
+					  	  <img src="images/thumb-branding.jpg" alt="thumb-branding" width="179" height="179" class="img-responsive center-block" />
+						  <h3>BRANDING</h3>
+						  <p>The word "brand" is often used as a metonym referring to the company that is strongly identified with a</p>
+					  </div>
+					  <div>
+					  	  <img src="images/thumb-design.jpg" alt="thumb-design" width="179" height="179" class="img-responsive center-block" />
+						  <h3>DESIGN</h3>
+						  <p>A roadmap or a strategic approach for someone to achieve a unique expectation.</p>
+					  </div>
+					  <div>
+					  	  <img src="images/thumb-development.jpg" alt="thumb-development" width="179" height="179" class="img-responsive center-block" />
+						  <h3>DEVELOPMENT</h3>
+						  <p> Artificial development is often considered a sub-field of evolutionary computation.</p>
+					  </div>
+					  <div>
+					  	  <img src="images/thumb-design2.jpg" alt="thumb-development" width="179" height="179" class="img-responsive center-block" />
+						  <h3>Design 2</h3>
+						  <p> Artificial development is often considered a sub-field of evolutionary computation.</p>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="row">
+			<div class="col-sm-12"><h2 class="in-touch">GET IN TOUCH</h2></div>
+			<div class="col-md-6 footer-form">
+				 <form>
+				   <label class="radio-inline"><input type="radio" name="optradio" checked>Mr</label>
+				   <label class="radio-inline"><input type="radio" name="optradio">Ms</label>
+				   <label class="radio-inline"><input type="radio" name="optradio">Mrs</label>
+				  <div class="form-group">
+				    <label class="sr-only">Your Name</label>
+				    <input type="text" class="form-control" id="pwd" placeholder="Your Name">
+				  </div> 
+				  <div class="form-group">
+				    <label class="sr-only">Your Email</label>
+				    <input type="email" class="form-control" id="email" placeholder="Your Email">
+				  </div>
+				   <div class="form-group">
+					<label class="sr-only">Your Message</label>
+					<textarea class="form-control" rows="5" id="comment" placeholder="Your Message"></textarea>
+				   </div>
+ 				  <div class="checkbox col-md-6 col-sm-3">
+				    <label><input type="checkbox" checked>agree with terms</label>
+				  </div>
+				  <div class="col-md-6 col-sm-9">
+				    <button type="submit" class="btn btn-default form-control">Send</button>
+				  </div>
+				</form>
+				
+			</div>
+			<div class="clearfix visible-xs-block"></div>
+			<div class="col-md-6 footer-map">
+				<p><strong>Where you can find us</strong></p>
+				<p>1600 Pennsylvania NW, Washington, DC 20500,<br>
+				   United States of America.</p>
+					
+				<p>T: (202) 456-1111<br>
+				   M: (202) 456-1212</p>
+				   
+				<div class="gmap">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.1531246628047!2d-77.03892894923851!3d38.89761355443645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7bce1485b19%3A0x9fc7bf09fd5d9daf!2sThe+White+House%2C+1600+Pennsylvania+Ave+NW%2C+Washington%2C+DC+20500!5e0!3m2!1sen!2sus!4v1474283196834" width="420" height="220" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="social-media">
+					<a class="social-link fb-icon" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a><a class="social-link twit-icon" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a class="social-link yt-icon" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a><a class="social-link lin-icon" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				</div>
+				
+			</div>
+		</div>
+	</footer>
+
+
+		
+	</div>
+	
+		<div class="sub-footer">
+		  <div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6">
+					<p>© 2014. All rights reserved.</p>
+				</div>
+				<div class="col-sm-6">
+					<a href="#">Admin panel <i class="fa fa-external-link-square" aria-hidden="true"></i>
+</a>
+				</div>
+			</div>
+		  </div>
+		</div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- slick jQuery carousel -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    
+    <script src="js/slick-carousel.js"></script>
+    
+    <script src="js/search-selector.js"></script>
+    
+  </body>
+</html>
